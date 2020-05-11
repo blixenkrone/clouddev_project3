@@ -1,4 +1,4 @@
-name: project 3 build pipe
+name: Frontend
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
 
       - run: |
           npm install
-          npm run build
+          npm run build ./udagram-frontend/package.json
 
   build:
     name: Build pro app
