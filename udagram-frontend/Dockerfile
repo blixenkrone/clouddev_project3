@@ -6,9 +6,9 @@ COPY /www /app/www/
 
 WORKDIR /app
 
-RUN npm install
+# RUN npm install
 
-COPY . .
+# COPY . .
 
 # # Step 2: Use build output from 'builder'
 FROM nginx:alpine
