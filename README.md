@@ -12,5 +12,3 @@ OBS:
 2. The reverse proxy is build in the same Dockerfile as the frontend is. It's a multistage build running a nginx image and uses the nginx server for the ionic app instead of node.
 
 3. Open "screenshots" folder for project requirements.
-
-TODO: create github actions
