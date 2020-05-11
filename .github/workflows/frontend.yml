@@ -16,9 +16,11 @@ jobs:
         with:
           node-version: "12"
 
-      - run: |
+      - name: NPM cmds
+        run: |
           npm install
           npm run build ./udagram-frontend/package.json
+        working-directory: ./udagram-frontend
 
   build:
     name: Build pro app
