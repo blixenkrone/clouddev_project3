@@ -1,4 +1,4 @@
-name: project 3 build pipe
+name: Feed API
 
 on:
   push:
